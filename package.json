@@ -1,0 +1,26 @@
+{
+    "name": "sample-template",
+    "version": "1.0.0",
+    "description": "Repo template",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "pretest": "npm run lint",
+        "lint": "eslint",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sdcaulley/sample-template.git"
+    },
+    "author": "sdcaulley <sdcaulley@sdcaulley.com> (https://github.com/sdcaulley)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sdcaulley/sample-template/issues"
+    },
+    "homepage": "https://github.com/sdcaulley/sample-template#readme",
+    "devDependencies": {
+        "eslint": "^3.15.0",
+        "mocha": "^3.2.0"
+    }
+}
